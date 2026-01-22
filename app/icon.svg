@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M4 4h24l-2 22-10 4-10-4-2-22z" fill="url(#shieldGrad)"/>
+  <!-- Inner highlight -->
+  <path d="M6 6h20l-1.7 18.7L16 28l-8.3-3.3L6 6z" fill="#0a0f2c" opacity="0.85"/>
+  <!-- CS text -->
+  <text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="10" fill="#7df9ff">CS</text>
+</svg>
+
