@@ -21,7 +21,7 @@ export default function About() {
           transition={{ duration: 0.5 }}
         >
           <p>
-            I am a graphic design, UI/UX, and frontend engineer who loves translating complex requirements into elegant,
+            I am a graphic designer, UI/UX specialist, and frontend engineer who loves translating complex requirements into elegant,
             high-performance experiences. My recent work focuses on design-driven interfaces, responsive systems, and
             accessibility-first UI.
           </p>
