@@ -34,9 +34,12 @@ const groupIconMap: Record<string, JSX.Element> = {
       />
     </svg>
   ),
-  testing: (
+  design: (
     <svg viewBox="0 0 24 24" className="h-5 w-5 text-cyan-200" aria-hidden="true">
-      <path fill="currentColor" d="M7 3h10l1 4h3v2H3V7h3l1-4Zm2 0-1 4h8l-1-4H9Zm-4 8h14v10H5V11Zm3 3v4h2v-4H8Zm6 0v4h2v-4h-2Z" />
+      <path
+        fill="currentColor"
+        d="M20.7 4.6a2 2 0 0 0-2.8 0L6.4 16.1l-.9 3.5 3.5-.9L20.6 7.2a2 2 0 0 0 0-2.8l-.1-.1ZM4 20h16v2H4v-2Z"
+      />
     </svg>
   ),
   exploring: (
