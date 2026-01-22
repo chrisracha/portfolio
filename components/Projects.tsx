@@ -99,7 +99,7 @@ export default function Projects() {
                   <p className="mt-3 text-sm text-white/70">{project.description}</p>
                 </div>
                 <p className="text-sm text-white/60">
-                  <span className="text-cyan-200/80">Role:</span> {project.role} · UI/UX
+                  <span className="text-cyan-200/80">Role:</span> {project.role}
                 </p>
                 <ul className="space-y-2 text-sm text-white/70">
                   {project.highlights.map((highlight) => (
