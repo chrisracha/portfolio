@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
 
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 export default function Contact() {
   return (
     <section id="contact" className="section-wrap scroll-mt-24">
@@ -60,7 +62,7 @@ export default function Contact() {
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="/cosalcedo_resume.pdf"
+              href={`${basePath}/cosalcedo_resume.pdf`}
               className="pill-button dark"
               aria-label="Download resume"
               download
