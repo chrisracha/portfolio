@@ -39,7 +39,7 @@ export const projects: Project[] = [
     stack: ["JavaScript", "HTML", "CSS", "Chrome Extensions"],
     highlights: ["UI personalization controls", "Inline GWA calculator", "Accessibility-friendly layout"],
     links: {
-      demo: "https://github.com/chrisracha/csrs-customizer",
+      demo: "https://youtu.be/QA9br-gT9oE",
       github: "https://github.com/chrisracha/csrs-customizer"
     },
     image: "https://raw.githubusercontent.com/chrisracha/csrs-customizer/refs/heads/main/screenshot.png",
