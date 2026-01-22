@@ -13,8 +13,13 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+  
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href={`${basePath}/favicon.svg`} type="image/svg+xml" />
+      </head>
       <body className={`${inter.className} bg-midnight text-white antialiased`}>{children}</body>
     </html>
   );
