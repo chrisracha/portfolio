@@ -65,7 +65,7 @@ export const projects: Project[] = [
     name: "DMPCS Dashboard",
     year: "2024",
     description: "A responsive analytics dashboard for the Department of Mathematics and Computer Science with interactive charts.",
-    role: "Frontend Engineer",
+    role: "Frontend Engineer  · UI/UX",
     stack: ["PHP", "MySQL", "Chart.js", "HTML/CSS"],
     highlights: ["Interactive data visualizations", "Mobile-first layout", "Stakeholder-ready reporting"],
     links: {
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     name: "Valoverse",
     year: "2023",
     description: "A Valorant fan site with agent profiles, stats, and user-generated content using PHP + MySQL.",
-    role: "Full Stack Engineer",
+    role: "Full Stack Engineer  · UI/UX",
     stack: ["PHP", "MySQL", "HTML/CSS", "JavaScript"],
     highlights: ["Agent database + CRUD", "User submissions", "Performance-optimized pages"],
     links: {
@@ -95,7 +95,7 @@ export const projects: Project[] = [
     name: "OSA Website",
     year: "2022",
     description: "UP Mindanao OSA website project showcasing responsive layouts and information architecture for student services.",
-    role: "Frontend Engineer",
+    role: "Frontend Engineer  · UI/UX",
     stack: ["HTML", "CSS", "JavaScript"],
     highlights: ["Information architecture planning", "Responsive UI build", "Content-focused layout"],
     links: {
