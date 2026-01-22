@@ -5,7 +5,6 @@ export type SkillIcon =
   | "database"
   | "tool"
   | "design"
-  | "testing"
   | "cloud";
 
 export type SkillItem = {
@@ -57,26 +56,23 @@ export const skills: SkillGroup[] = [
   },
   {
     id: "tools",
-    label: "Tools + Design",
+    label: "Tools",
     items: [
       { label: "Git", icon: "tool" },
       { label: "GitHub", icon: "tool" },
       { label: "Docker", icon: "tool" },
-      { label: "Linux", icon: "tool" },
+      { label: "Linux", icon: "tool" }
+    ]
+  },
+  {
+    id: "design",
+    label: "Design",
+    items: [
       { label: "Figma", icon: "design" },
       { label: "Adobe Photoshop", icon: "design" },
       { label: "Adobe Illustrator", icon: "design" },
       { label: "Adobe InDesign", icon: "design" },
       { label: "Canva", icon: "design" }
-    ]
-  },
-  {
-    id: "testing",
-    label: "Testing",
-    items: [
-      { label: "Playwright", icon: "testing" },
-      { label: "Jest", icon: "testing" },
-      { label: "Cypress", icon: "testing" }
     ]
   },
   {
