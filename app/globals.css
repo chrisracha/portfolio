@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 15, 44, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(110, 231, 255, 0.25);
+  border-radius: 999px;
+}
+
+.glass {
+  @apply border border-white/10 bg-white/5 backdrop-blur-xl;
+}
+
+.pill-button {
+  @apply inline-flex items-center gap-2 rounded-full border border-cyan-200/40 bg-cyan-300/10 px-6 py-3 text-sm font-semibold text-cyan-100 shadow-glow transition hover:-translate-y-0.5 hover:border-cyan-100/70 hover:bg-cyan-200/20;
+}
+
+.pill-button.dark {
+  @apply border-white/10 bg-white/5 text-white hover:border-cyan-200/60;
+}
+
+.section-wrap {
+  @apply relative mx-auto w-full max-w-6xl px-6;
+}

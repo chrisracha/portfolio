@@ -1,0 +1,16 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1640"/>
+      <stop offset="100%" stop-color="#7b47ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="36" fill="url(#bg)"/>
+  <rect x="100" y="120" width="320" height="240" rx="24" fill="#111b4d" stroke="rgba(255,255,255,0.12)" />
+  <rect x="460" y="130" width="300" height="220" rx="24" fill="#1b2a6b" stroke="rgba(255,255,255,0.12)" />
+  <text x="130" y="170" fill="#E6F7FF" font-size="24" font-family="Arial" font-weight="600">SaaS Launch</text>
+  <text x="130" y="208" fill="#B3C8FF" font-size="16" font-family="Arial">Marketing, auth, onboarding</text>
+  <text x="480" y="178" fill="#E6F7FF" font-size="20" font-family="Arial" font-weight="600">Secure Auth</text>
+  <text x="480" y="210" fill="#B3C8FF" font-size="14" font-family="Arial">Magic links + OAuth</text>
+</svg>
+

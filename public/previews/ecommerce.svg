@@ -1,0 +1,16 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111c4f"/>
+      <stop offset="100%" stop-color="#2b63ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="36" fill="url(#bg)"/>
+  <rect x="80" y="110" width="300" height="260" rx="26" fill="#0c1743" stroke="rgba(255,255,255,0.1)" />
+  <rect x="420" y="150" width="360" height="200" rx="26" fill="#12255f" stroke="rgba(255,255,255,0.1)" />
+  <text x="110" y="160" fill="#E6F7FF" font-size="24" font-family="Arial" font-weight="600">E-commerce Analytics</text>
+  <text x="110" y="198" fill="#9AD8FF" font-size="16" font-family="Arial">Orders, revenue, inventory</text>
+  <text x="440" y="200" fill="#E6F7FF" font-size="20" font-family="Arial" font-weight="600">Daily Performance</text>
+  <text x="440" y="232" fill="#9AD8FF" font-size="14" font-family="Arial">Realtime KPI dashboards</text>
+</svg>
+
